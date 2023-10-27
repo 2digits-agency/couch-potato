@@ -1,4 +1,4 @@
-import { type ExpoConfig, type ConfigContext } from 'expo/config';
+import { ExpoConfig, ConfigContext } from 'expo/config';
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
@@ -6,7 +6,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   slug: 'couch-potato',
   scheme: 'couch-potato',
   version: '1.0.0',
-  owner: 'slvstr',
+  owner: '2digits-agency',
   orientation: 'portrait',
   icon: './src/assets/images/icon.png',
   userInterfaceStyle: 'light',
@@ -19,12 +19,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   jsEngine: 'hermes',
   ios: {
     supportsTablet: true,
+    bundleIdentifier: 'com.twodigitsagency.couchpotato',
   },
   android: {
     adaptiveIcon: {
       foregroundImage: './src/assets/images/adaptive-icon.png',
       backgroundColor: '#ffffff',
     },
+    package: 'com.twodigitsagency.couchpotato',
   },
   plugins: ['expo-router'],
   experiments: {
@@ -33,7 +35,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   extra: {
     eas: {
-      projectId: 'e6e625d4-8e6e-4084-9c80-86ef7e135fec',
+      projectId: '164d867c-d6a8-432c-ad85-d6246d37b0f7',
     },
   },
 });
