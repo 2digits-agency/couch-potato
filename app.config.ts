@@ -1,4 +1,4 @@
-import { type ExpoConfig, type ConfigContext } from 'expo/config';
+import { ExpoConfig, ConfigContext } from 'expo/config';
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
@@ -19,6 +19,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   jsEngine: 'hermes',
   ios: {
     supportsTablet: true,
+    bundleIdentifier: 'com.2digitsagency.couch-potato',
   },
   android: {
     adaptiveIcon: {
