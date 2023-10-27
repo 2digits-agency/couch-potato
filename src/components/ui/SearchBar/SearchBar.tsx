@@ -14,7 +14,7 @@ export default function SearchBar({ baseClassName }: SearchBarProps) {
       className={cn('min-h-full bg-white items-center flex-row', baseClassName)}
       style={{ gap: 10 }}>
       <View className="flex-1">
-        <View className="flex-row items-center bg-lightGrey rounded-lg px-2" style={{ gap: 4 }}>
+        <View className="flex-row items-center bg-lightGrey rounded-lg px-2">
           <Icon name="SearchOutline" className="text-medium" />
 
           <TextInput

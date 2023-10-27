@@ -23,8 +23,8 @@ export default function Header() {
   ];
 
   return (
-    <SafeAreaView className="flex-1 bg-white">
-      <View className="min-h-full bg-white items-center flex-row px-5" style={{ gap: 20 }}>
+    <SafeAreaView className="flex-1 bg-white" edges={['top']}>
+      <View className="h-14 bg-white items-center flex-row px-5" style={{ gap: 20 }}>
         <TouchableOpacity onPress={openBottomSheet}>
           <Image source={require('@/assets/images/bike.png')} className="w-[30] h-[30]" />
         </TouchableOpacity>
@@ -44,7 +44,7 @@ export default function Header() {
         </TouchableOpacity>
       </View>
 
-      <SearchBar baseClassName="px-4" />
+      <SearchBar baseClassName="px-4 py-2 h-14" />
 
       <BottomSheet ref={bottomSheetRef} label="Confirm" backgroundStyle="bg-lightGrey">
         <Toggle options={toggleOptions} baseClassName="justify-center px-2" />
