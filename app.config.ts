@@ -19,14 +19,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   jsEngine: 'hermes',
   ios: {
     supportsTablet: true,
-    bundleIdentifier: 'com.2digitsagency.couch-potato',
+    bundleIdentifier: 'com.twodigitsagency.couchpotato',
   },
   android: {
     adaptiveIcon: {
       foregroundImage: './src/assets/images/adaptive-icon.png',
       backgroundColor: '#ffffff',
     },
-    package: 'com.2digitsagency.couch_potato',
+    package: 'com.twodigitsagency.couchpotato',
   },
   plugins: ['expo-router'],
   experiments: {
