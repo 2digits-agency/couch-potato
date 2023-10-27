@@ -26,6 +26,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       foregroundImage: './src/assets/images/adaptive-icon.png',
       backgroundColor: '#ffffff',
     },
+    package: 'com.2digitsagency.couch_potato',
   },
   plugins: ['expo-router'],
   experiments: {
