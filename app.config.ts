@@ -6,7 +6,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   slug: 'couch-potato',
   scheme: 'couch-potato',
   version: '1.0.0',
-  owner: 'slvstr',
+  owner: '2digits-agency',
   orientation: 'portrait',
   icon: './src/assets/images/icon.png',
   userInterfaceStyle: 'light',
