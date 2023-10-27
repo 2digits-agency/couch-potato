@@ -1,6 +1,6 @@
-# CouchPotato
+# LazyLounger
 
-CouchPotato; your comfort, our cuisine!
+LazyLounger; your comfort, our cuisine!
 
 This project started from following [this tutorial](https://www.youtube.com/watch?v=FXnnCrfiNGM) and adjusted/changed and hacked into a the version you're now looking at.
 

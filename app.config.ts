@@ -2,9 +2,9 @@ import { ExpoConfig, ConfigContext } from 'expo/config';
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: 'CouchPotato',
-  slug: 'couch-potato',
-  scheme: 'couch-potato',
+  name: 'LazyLounger',
+  slug: 'lazy-lounger',
+  scheme: 'lazy-lounger',
   version: '1.0.0',
   owner: '2digits-agency',
   orientation: 'portrait',
@@ -19,14 +19,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   jsEngine: 'hermes',
   ios: {
     supportsTablet: true,
-    bundleIdentifier: 'com.twodigitsagency.couchpotato',
+    bundleIdentifier: 'com.twodigitsagency.lazylounger',
   },
   android: {
     adaptiveIcon: {
       foregroundImage: './src/assets/images/adaptive-icon.png',
       backgroundColor: '#ffffff',
     },
-    package: 'com.twodigitsagency.couchpotato',
+    package: 'com.twodigitsagency.lazylounger',
   },
   plugins: ['expo-router'],
   experiments: {
