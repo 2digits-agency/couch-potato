@@ -3,8 +3,8 @@ import { ExpoConfig, ConfigContext } from 'expo/config';
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: 'LazyLounger',
-  slug: 'lazy-lounger',
-  scheme: 'lazy-lounger',
+  slug: 'lazylounger',
+  scheme: 'lazylounger',
   version: '1.0.0',
   owner: '2digits-agency',
   orientation: 'portrait',
@@ -35,7 +35,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   extra: {
     eas: {
-      projectId: '164d867c-d6a8-432c-ad85-d6246d37b0f7',
+      projectId: '44f039dc-a0d4-4464-9abe-c504e961295c',
     },
   },
 });
