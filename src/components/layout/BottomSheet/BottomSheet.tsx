@@ -6,7 +6,7 @@ import {
 } from '@gorhom/bottom-sheet';
 import { styled } from 'nativewind';
 import { ReactNode, type Ref, forwardRef, useMemo, useCallback } from 'react';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Button } from '@/components/ui/Button/Button';
 import { cn } from '@/utils/tailwindUtils';

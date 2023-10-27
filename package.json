@@ -1,6 +1,7 @@
 {
   "name": "couch-potato",
   "main": "expo-router/entry",
+  "author": "Sylvester Hofstra",
   "version": "1.0.0",
   "private": true,
   "scripts": {

@@ -1,7 +1,8 @@
 import { BottomSheetModal } from '@gorhom/bottom-sheet';
 import { Link } from 'expo-router';
 import { useRef } from 'react';
-import { Text, SafeAreaView, View, TouchableOpacity, Image } from 'react-native';
+import { Text, View, TouchableOpacity, Image } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { BottomSheet } from '@/components/layout/BottomSheet/BottomSheet';
 import { Icon } from '@/components/ui/Icon/Icon';
